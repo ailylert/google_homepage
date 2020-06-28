@@ -1,0 +1,2 @@
+Hey, this is very first my mini-peoject where I'll be deconstructing an existing webpage and rebuild it as part of my TOP Web Development 101
+Once I'm done, I will list out what skills I've demonstrated once I've completed it :) (think of it as self-reflection)
