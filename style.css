@@ -1,17 +1,26 @@
+body {
+    margin: 0; /*do last so students see the difference*/
+}
+
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} 
+    display: flex; /*coverting a parent container to a flex container*/
+    flex-direction: row; /*chaning the direction of my items to row, left to right order*/
+    justify-content: space-between; /*will align all items in the container horizontally
+                                     items will have space distributed evenly between them */
+}
 
 .nav ul,li{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block ; 
+    display: inline-block ; /*list is a block element, this property will change it to inline-block*/
     padding: 0px 10px;
 }
 
-.content {
+a {
+    text-decoration: none;
+}
+
+.google {
     display: flex;
     justify-content: center;
     padding: 150px 150px 30px ;
@@ -32,7 +41,7 @@ input{
 
 .btn{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
 }
 
